@@ -1,0 +1,23 @@
+{
+  "actions": [
+    "CHANGE_DIRECTORY",
+    "OPEN_APPLICATION",
+    "RUN_COMMAND",
+    "FILE_OPERATION",
+    "CLOSE_APPLICATION",
+    "TAKE_SCREENSHOT"
+  ],
+  "paths": [
+    "~/"
+  ],
+  "applications": [],
+  "commands": [
+    "ls",
+    "cd",
+    "pwd",
+    "cat",
+    "echo",
+    "mkdir",
+    "touch"
+  ]
+}

@@ -1,0 +1,42 @@
+# Secrets / local env
+.env
+.env.*
+!.env.example
+
+# Runtime artifacts
+logs/
+__pycache__/
+*.pyc
+*.pyo
+*.log
+
+# Virtual envs
+.venv/
+venv/
+env/
+ENV/
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Tests / cache
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+
+# SQLite / dumps
+*.sqlite
+*.db
+*.dump
+
+# Local overrides
+config/local.json

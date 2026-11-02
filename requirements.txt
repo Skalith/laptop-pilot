@@ -1,0 +1,26 @@
+# --- Web / API ---
+fastapi>=0.115
+uvicorn[standard]>=0.32
+websockets>=13.1
+httpx>=0.27
+
+# --- Config / validation ---
+pydantic>=2.9
+pydantic-settings>=2.6
+python-dotenv>=1.0
+
+# --- Telegram ---
+python-telegram-bot>=21.6
+
+# --- LLM providers (factory + failover) ---
+google-genai>=1.0        # Gemini Provider
+groq>=0.11               # Groq Provider
+openai>=1.51             # NVIDIA + Omniroute Providers (OpenAI-compatible)
+
+# --- Observability ---
+langfuse>=2.54           # Flow tracing (Step 13)
+
+# --- Agent 2 executor (runs on the laptop, optional import) ---
+pexpect>=4.9             # Persistent PTY shell
+pyautogui>=0.9.54        # GUI: mouse / keyboard (Linux needs python3-xlib)
+Pillow>=11.0             # Screen observation
